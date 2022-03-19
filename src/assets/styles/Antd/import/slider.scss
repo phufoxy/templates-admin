@@ -1,0 +1,32 @@
+// Import mixins
+@import "@/assets/styles/mixins.scss";
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/*  ANT DESIGN SLIDER */
+
+.ant-slider-with-marks {
+  margin-bottom: 19px;
+}
+
+.ant-image {
+  position: relative;
+  .customize-mask {
+    opacity: 1;
+    background-color: transparent;
+  }
+  .anticon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: #ffffff;
+    border: 1px solid #e0e7f0;
+    color: #2c2e31;
+    font-size: 10px;
+  }
+}

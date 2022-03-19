@@ -1,0 +1,90 @@
+{
+  "dataSource": [
+    {
+      "name": "Bếp"
+    },
+    {
+      "name": "Lò sưởi trong nhà"
+    },
+    {
+      "name": "Dầu gội đầu"
+    },
+    {
+      "name": "Mắc áo"
+    },
+    {
+      "name": "Hệ thống sưởi"
+    },
+    {
+      "name": "Bàn là"
+    },
+    {
+      "name": "Điều hòa nhiệt độ"
+    },
+    {
+      "name": "Máy sấy tóc"
+    },
+    {
+      "name": "Máy giặt"
+    },
+    {
+      "name": "Không gian riêng để làm việc"
+    },
+    {
+      "name": "Máy sấy quần áo"
+    },
+    {
+      "name": "TV"
+    },
+    {
+      "name": "Wifi"
+    },
+    {
+      "name": "Cũi"
+    },
+    {
+      "name": "Bữa sáng"
+    },
+    {
+      "name": "Ghế ăn cho trẻ em"
+    },
+    {
+      "name": "Tự nhận phòng"
+    },
+    {
+      "name": "Phòng tắm riêng"
+    },
+    {
+      "name": "Máy báo khói"
+    },
+    {
+      "name": "Đàn piano"
+    },
+    {
+      "name": "Máy phát hiện khí CO"
+    },
+    {
+      "name": "Hướng biển"
+    },
+    {
+      "name": "Ven sông/hồ/biển"
+    },
+    {
+      "name": "Đường trượt tuyết thẳng tới cửa"
+    }
+  ],
+  "UTILITES": [
+    {
+      "name": "Chỗ đỗ xe miễn phí tại nơi ở"
+    },
+    {
+      "name": "Bồn tắm nước nóng"
+    },
+    {
+      "name": "Phòng tập thể hình"
+    },
+    {
+      "name": "Bể bơi"
+    }
+  ]
+}

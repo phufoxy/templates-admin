@@ -1,0 +1,32 @@
+{
+  "dataSource": [
+    {
+      "id": "1",
+      "code": "LGDV01",
+      "name": "Team building",
+      "img": "/image-default.png",
+      "show": true
+    },
+    {
+      "id": "2",
+      "code": "LGDV02",
+      "name": "Gia đình",
+      "img": "/image-default.png",
+      "show": true
+    },
+    {
+      "id": "3",
+      "code": "LGDV03",
+      "name": "Lưu trú nghỉ dưỡng",
+      "img": "/image-default.png",
+      "show": true
+    },
+    {
+      "id": "4",
+      "code": "LGDV04",
+      "name": "Spa/Massage",
+      "img": "/image-default.png",
+      "show": true
+    }
+  ]
+}

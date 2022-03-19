@@ -1,0 +1,32 @@
+{
+  "dataSource": [
+    {
+      "id": "1",
+      "code": "DDYT01",
+      "name": "Hội An",
+      "img": "/image-default.png",
+      "show": true
+    },
+    {
+      "id": "2",
+      "code": "DDYT02",
+      "name": "Đà Nẵng",
+      "img": "/image-default.png",
+      "show": true
+    },
+    {
+      "id": "3",
+      "code": "DDYT03",
+      "name": "Huế",
+      "img": "/image-default.png",
+      "show": true
+    },
+    {
+      "id": "4",
+      "code": "DDYT04",
+      "name": "Nha Trang",
+      "img": "/image-default.png",
+      "show": true
+    }
+  ]
+}

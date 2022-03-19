@@ -1,0 +1,226 @@
+@import '@/assets/styles/mixins.scss';
+
+.menu {
+  box-sizing: content-box;
+  position: relative;
+  &:global(.ant-layout-sider-collapsed) {
+    .logoContainer {
+      justify-content: center;
+      padding: 17px 0px;
+      background-color: #172132;
+
+      .title {
+        font-size: 16px !important;
+        line-height: 22px;
+      }
+    }
+  }
+  &:global(.ant-layout-sider) {
+    background-color: rgba($color: #172132, $alpha: 1);
+  }
+
+  .title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #92a0b2;
+    white-space: break-spaces;
+  }
+
+  :global(.ant-layout-sider-children) {
+    height: 100%;
+    position: fixed;
+    transition: width 0.3s;
+    width: 256px;
+    padding-bottom: 120px;
+    background-color: rgba($color: #172132, $alpha: 1);
+  }
+
+  &:global(.ant-layout-sider-collapsed) {
+    :global(.ant-layout-sider-children) {
+      width: 80px;
+    }
+  }
+
+  :global(.ant-menu-inline-collapsed-tooltip) .icon {
+    display: none;
+  }
+
+  :global(.ant-layout-sider-zero-width-trigger) {
+    top: 10px !important;
+  }
+
+  :global(.ant-menu-item),
+  :global(.ant-menu-submenu-title) {
+    transition: padding 0s !important;
+  }
+}
+
+.logo {
+  overflow: hidden;
+}
+
+.copyRight {
+  align-items: center;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  left: 17px;
+  opacity: 0.65;
+  position: absolute;
+}
+
+.logoContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 17px 20px;
+  background-color: #172132;
+
+  img {
+    height: auto;
+    max-width: 145px;
+  }
+
+  .title {
+    color: $text-white;
+    font-family: 'iCiel Samsung Sharp Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.icon {
+  color: #979da5;
+  padding-right: 10px;
+}
+
+.navigation {
+  border: 0;
+  > :global(.ant-menu-item-divider) {
+    margin: 0 23px !important;
+  }
+
+  :global(.ant-menu-submenu-inline) > :global(.ant-menu-submenu-title .ant-menu-submenu-arrow) {
+    right: 50px;
+  }
+
+  :global(.ant-menu-inline, .ant-menu-vertical),
+  :global(.ant-menu-vertical-left) {
+    border-right: 0;
+  }
+
+  :global(.ant-menu-dark .ant-menu-inline.ant-menu-sub) {
+    box-shadow: none !important;
+    transition: all 0.3s;
+  }
+
+  &:global(.ant-menu-inline-collapsed) {
+    .title {
+      display: none;
+    }
+
+    :global(.ant-menu-submenu) > :global(.ant-menu-submenu-title .ant-menu-submenu-arrow) {
+      display: block;
+      opacity: 0.2;
+      right: 14px;
+      top: 48%;
+    }
+
+    .icon {
+      right: 30px;
+    }
+  }
+
+  &:global(.ant-menu-dark) {
+    background-color: #172132;
+    color: $gray-darken;
+    height: 100%;
+
+    :global(.ant-menu-item-divider) {
+      opacity: 0.2;
+    }
+
+    :global(.ant-menu-sub) {
+      color: $gray-darken;
+    }
+
+    :global(.ant-menu-item) {
+      color: $gray-darken;
+      height: auto;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      > a {
+        color: $gray-darken;
+        &:hover {
+          .icon {
+            color: $white !important;
+          }
+        }
+      }
+    }
+
+    :global(.ant-menu-item-selected) {
+      background-color: #5b39e9 !important;
+      .title {
+        color: $text-white;
+      }
+      > a {
+        color: $white;
+
+        .icon {
+          color: $white !important;
+        }
+      }
+    }
+
+    :global(.ant-menu-submenu:hover),
+    :global(.ant-menu-submenu-selected),
+    :global(.ant-menu-submenu-open) {
+      .icon {
+        color: $white !important;
+      }
+    }
+
+    :global(.ant-menu-submenu-active) {
+      .icon {
+        color: $blue !important;
+      }
+    }
+
+    :global(.ant-menu-inline.ant-menu-sub) {
+      box-shadow: none !important;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.scrollbarDesktop {
+  height: 100vh;
+}
+
+.scrollbarMobile {
+  height: calc(100vh - 67px) !important;
+}
+
+:global(.ant-menu-inline-collapsed-tooltip) {
+  :global(.icon-collapsed-hidden) {
+    display: none;
+  }
+}
+
+:global(.ant-menu-inline-collapsed) {
+  :global(.badge-collapsed-hidden) {
+    display: none;
+  }
+}
+
+.icon-plus {
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  color: $text-success;
+}

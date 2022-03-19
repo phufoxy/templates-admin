@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'iCiel Samsung Sharp Sans';
+    src: url('iCielSamsungSharpSans-Bold.eot');
+    src: url('iCielSamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('iCielSamsungSharpSans-Bold.woff2') format('woff2'),
+        url('iCielSamsungSharpSans-Bold.woff') format('woff'),
+        url('iCielSamsungSharpSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
